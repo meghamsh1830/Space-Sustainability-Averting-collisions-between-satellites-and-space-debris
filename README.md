@@ -62,7 +62,7 @@ Returns:
 
 ## 🧭 Architecture
 
-![Architecture Diagram](Picture1.png)
+![Architecture Diagram](C:\Users\KAVIN CHANDRA\Desktop\Picture1.png)
 
 ---
 
