@@ -62,7 +62,7 @@ Returns:
 
 ## 🧭 Architecture
 
-![Architecture Diagram](C:\Users\KAVIN CHANDRA\Desktop\Picture1.png)
+![Architecture Diagram](https://github.com/meghamsh1830/Space-Sustainability-Averting-collisions-between-satellites-and-space-debris/blob/main/Architecture%20Diagram.png?raw=true)
 
 ---
 
