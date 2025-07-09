@@ -62,7 +62,7 @@ Returns:
 
 ## 🧭 Architecture
 
-*(You can insert your architecture diagram image or link here)*
+![Architecture Diagram](Picture1.png)
 
 ---
 
