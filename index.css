@@ -1,0 +1,253 @@
+﻿html,
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+}
+
+*:focus {
+  outline: none;
+}
+
+#top {
+  top: 80px;
+  left: 0;
+  height: 80px;
+  background-color: #3ea4e2;
+  /* background-color: #7432ff; */
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading {
+  position: fixed;
+  left: 35px;
+  top: 10px;
+  right: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lynx-name {
+  color: #c01a0b;
+}
+
+#buttons {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.rc-button {
+  display: inline-block;
+  height: 50px;
+  cursor: pointer;
+  pointer-events: all;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 1px;
+  padding-top: 13px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 60px;
+  text-align: center;
+}
+
+.rc-button-square,
+.btn-group > .rc-button-square {
+  border-radius: 0;
+}
+
+.rc-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 0, 0, 0.5);
+}
+
+#bottom {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#bottom-left {
+  display: none;
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+  width: 250px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: transparent;
+  z-index: 10;
+}
+
+#bottom-right {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#botton-right-probability {
+  display: none;
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+  width: 350px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: transparent;
+  z-index: 11;
+}
+
+.table {
+  width: 350px;
+}
+
+.table-heading {
+  font-weight: 600;
+  width: 150px;
+}
+
+.rc-readable {
+  font-family: "Oswald", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.rc-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 225px;
+  padding: 0 15px 15px 15px;
+  background-color: #3ea4e2;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.rc-panel:not([data-panel="main"]) {
+  margin-left: -225px;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+}
+
+#satellite-count {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  pointer-events: none;
+}
+
+.rc-country > button {
+  width: 39px;
+}
+
+.rc-title {
+  font-size: 15px;
+  font-weight: 500;
+  pointer-events: none;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.rc-close {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rc-vertical {
+  color: blue !important;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.rc-heading {
+  font-size: 18px;
+  font-weight: 700;
+  pointer-events: none;
+  /* margin-top: 10px; */
+}
+
+.rc-table-heading {
+  font-size: 17px;
+  font-weight: 700;
+  pointer-events: none;
+  width: 120px;
+}
+
+.slider.slider-horizontal {
+  margin-left: 10px;
+  width: 175px;
+}
+
+.slider-tick {
+  opacity: 1;
+}
+
+.btn-default.active {
+  font-weight: 500;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+}
+
+.rc-panel-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.country-button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-bar-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000; /* Ensure it is above other elements */
+}
+
+#search-bar {
+  color: #000000;
+  width: 200px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+}
