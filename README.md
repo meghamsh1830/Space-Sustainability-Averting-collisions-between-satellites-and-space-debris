@@ -66,8 +66,9 @@ Returns:
 
 ## 🌐 Collision Prediction Web App
 
-- 🔗 [LYNX Website](#) *(http://127.0.0.1:5501/index.html)*
-- 🔗 [Collision Prediction - by LYNX](#) *(http://127.0.0.1:5501/collision.html)*
+- 🔗 [LYNX Website](http://127.0.0.1:5501/index.html)
+
+- 🔗 [Collision Prediction - by LYNX](http://127.0.0.1:5501/collision.html)
 
 ---
 
