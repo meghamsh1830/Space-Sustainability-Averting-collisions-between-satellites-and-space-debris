@@ -1,6 +1,5 @@
 # Space-Sustainability-Averting-collisions-between-satellites-and-space-debris
-
-# 🛰️ Space Sustainability: Predictive Collision Avoidance for Satellites
+ 
 
 ## 🌍 Project Overview
 
