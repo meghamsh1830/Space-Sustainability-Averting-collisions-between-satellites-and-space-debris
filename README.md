@@ -32,6 +32,9 @@ The project follows a modular, data-driven workflow:
 ### 1. **Data Acquisition**
 - Fetch TLE data using authenticated API access from [space-track.org](https://www.space-track.org)
 - Maintain a dataset of relevant NORAD IDs for active satellites and known debris
+- •	Active satellites  NORAD ID information. [Link](https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle)
+
+
 
 ### 2. **Orbit Propagation**
 - Use the SGP4 model (`python-sgp4`) to convert TLE data into satellite position and velocity in the ECI frame
